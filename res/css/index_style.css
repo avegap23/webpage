@@ -40,10 +40,10 @@ footer {
     left: 0;
     right: 0;
     margin: auto;
-    width: 10%;
+    width: 25%;
 }
 
-#names-faq {
+#names-faq-link {
     position: absolute;
     bottom: 0;
     left: auto;
