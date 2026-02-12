@@ -1,6 +1,6 @@
 body {
-    background-color: #BC93F4;
-    color: #F2DAAC;
+    background-color: #846BA6;
+    color: #BC93F4;
     font-family: "Courier New", Courier, monospace;
     position: relative;
 }
@@ -21,13 +21,19 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-footer a, a:visited {
+a {
     text-decoration: none;
+}
+
+a:visited {
     color: inherit;
 }
 
-footer a:hover {
-    text-decoration: underline;
+a:hover {
+    color: #D9C39A;
 }
