@@ -1,52 +1,33 @@
 body {
-    background-color: black;
-    color: white;
+    background-color: #BC93F4;
+    color: #F2DAAC;
+    font-family: "Courier New", Courier, monospace;
+    position: relative;
+}
+
+#notice {
+    margin: 0;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-text {
     text-align: center;
-    font-family: "Courier New", Courier, monospace
-}
-
-span {
-    font-style: italic;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-#header {
-    margin-top: 50px;
-}
-
-#featured {
-    margin: 0 auto;
-    margin-top: 50px;
-    text-align: start;
-    width: 50%;
-}
-
-li {
-    font-size: 20px;
-    margin-top: 10px;
 }
 
 footer {
-    text-align: center;
     position: absolute;
     bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 25%;
+    width: 100%;
 }
 
-#names-faq-link {
-    position: absolute;
-    bottom: 0;
-    left: auto;
-    right: 20px;
-    margin: auto;
+footer a, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
