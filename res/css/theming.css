@@ -1,0 +1,40 @@
+body {
+    background-color: #846BA6;
+    color: #BC93F4;
+    font-family: "Courier New", Courier, monospace;
+    position: relative;
+}
+
+#notice {
+    margin: 0;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:hover {
+    color: #D9C39A;
+}
